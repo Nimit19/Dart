@@ -1,5 +1,4 @@
-void main(){
-
+void main() {
   // 1] Can't change Datatype
   var a = 10;
   // a = "Nimit"; // Give an Error
@@ -19,5 +18,4 @@ void main(){
   d = 10;
 
   print("$a, $b, $c, $d");
-
 }
