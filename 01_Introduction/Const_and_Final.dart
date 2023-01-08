@@ -31,4 +31,8 @@ void main() {
   // 3]
   const l2 = [1, 2, 3, 4, 6];
   // l2[4] = 5; // Give an error
+
+  // 4]
+  // const v; // must be initialize when declaration
+  // v = 15;
 }
