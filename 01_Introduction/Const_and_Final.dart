@@ -41,4 +41,11 @@ void main() {
   // l3[2] = 19; // Give an Error
   l3 = [5, 6, 7, 8];
   print(l3);
+
+  // final and const
+  final l4 = [1, 2, 3, 4, 5];
+  l4[0] = 0; // change the value
+
+  final l5 = const [1, 2, 3, 4, 5];
+  // l5[0] = 25; // give an error
 }
