@@ -35,4 +35,10 @@ void main() {
   // 4]
   // const v; // must be initialize when declaration
   // v = 15;
+
+  // 5]
+  var l3 = const [1, 2, 3, 4, 5];
+  // l3[2] = 19; // Give an Error
+  l3 = [5, 6, 7, 8];
+  print(l3);
 }
